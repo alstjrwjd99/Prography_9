@@ -49,18 +49,28 @@
 
 **사진 목록 가져오기:** `GET https://api.unsplash.com/photos`
 - **로딩 상태:** SkeletonView를 사용하여 로딩 중 표현
-![skelton](https://github.com/alstjrwjd99/Prography_9/assets/42230162/ea136d33-77f9-4b3b-bf55-56ec7c4090f9)
+
+![f785a0e0-ee22-4d20-a7f7-13dc68ef57b3](https://github.com/alstjrwjd99/Prography_9/assets/42230162/690a0512-b95d-4941-a14a-0c5082dd5237)
+
 - **북마크:** LocalDB를 사용하여 북마크 구현
+
+![1c3f747b-a91d-4577-8fea-07496dffaa40](https://github.com/alstjrwjd99/Prography_9/assets/42230162/ed376a83-b372-43ab-abb4-9aa19e4b2c8e)
+
 - **무한 스크롤:** 최하단에 도달하면 다음 이미지들을 불러올 수 있도록 구현
+
+![78bd17cc-c572-476e-95e4-207d7ce2a50e](https://github.com/alstjrwjd99/Prography_9/assets/42230162/0a48e35a-490f-4ac8-a30a-da82a4b2294e)
 
 ## 랜덤 포토 탭 (두 번째 탭)
 
 **랜덤 사진 가져오기:** `GET https://api.unsplash.com/photos/random`
+
+![e69bde22-fe82-4183-a326-3fc287bcb476](https://github.com/alstjrwjd99/Prography_9/assets/42230162/e0fdb157-020d-48d0-830c-dbdca0e58850)
+
 - **옵션 1:**
     - 좌우로 넘길 수 있는 사진 카드 구현
     - 가운데 북마크 버튼 클릭 시 자동으로 다음 카드로 이동
 - **옵션 2:**
-    - 좌측 스와이핑 시 다음 카드로 이동
+    - 좌측 스와이핑 시 이전 카드로 이동
     - 우측 스와이핑 시 북마크 저장 후 다음 카드로 이동
 
 ## 포토 디테일
