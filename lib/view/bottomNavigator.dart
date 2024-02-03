@@ -21,6 +21,8 @@ class _BottomNavigatorState extends State<BottomNavigator> {
         child: _buildPage(_currentIndex),
       ),
       bottomNavigationBar: BottomNavigationBar(
+        showSelectedLabels: false,
+        showUnselectedLabels: false,
         backgroundColor: Color(0xff222222),
         selectedItemColor: Color(0xffffffff),
         unselectedItemColor: Color(0xff222222),

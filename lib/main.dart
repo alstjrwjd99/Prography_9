@@ -30,6 +30,7 @@ class MyApp extends StatelessWidget {
       designSize: const Size(375, 812),
       builder: (BuildContext context, Widget? widget) {
         return const MaterialApp(
+          debugShowCheckedModeBanner: false,
           home: BottomNavigator(),
         );
       },
