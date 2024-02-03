@@ -47,14 +47,15 @@
 
 ## 메인 탭 (첫 번째 탭)
 
-- **사진 목록 가져오기:** `GET https://api.unsplash.com/photos`
+**사진 목록 가져오기:** `GET https://api.unsplash.com/photos`
 - **로딩 상태:** SkeletonView를 사용하여 로딩 중 표현
+![skelton](https://github.com/alstjrwjd99/Prography_9/assets/42230162/ea136d33-77f9-4b3b-bf55-56ec7c4090f9)
 - **북마크:** LocalDB를 사용하여 북마크 구현
 - **무한 스크롤:** 최하단에 도달하면 다음 이미지들을 불러올 수 있도록 구현
 
 ## 랜덤 포토 탭 (두 번째 탭)
 
-- **랜덤 사진 가져오기:** `GET https://api.unsplash.com/photos/random`
+**랜덤 사진 가져오기:** `GET https://api.unsplash.com/photos/random`
 - **옵션 1:**
     - 좌우로 넘길 수 있는 사진 카드 구현
     - 가운데 북마크 버튼 클릭 시 자동으로 다음 카드로 이동
