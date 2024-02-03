@@ -4,17 +4,15 @@
 
 ## 패키지 사용
 
-- cupertino_icons: ^1.0.2
-- flutter_screenutil: ^5.9.0
-- cached_network_image: ^3.3.1
-- flutter_staggered_grid_view: ^0.7.0
-- skeletonizer: ^1.0.1
-- path_provider: ^2.1.2
-- path: ^1.8.3
-- sqflite: ^2.3.2
-- get: ^4.6.6
-- permission_handler: ^11.2.0
-
+- `flutter_screenutil`: figma에 명세된 (375, 812) 화면 크기를 맞추어 개발에 적용했습니다.
+- `cached_network_image`: 한번 불러온 이미지들을 다시 빠르게 불러올 수 있게하기 위해 사용했습니다.
+- `flutter_staggered_grid_view`: 특색있는 그리드 뷰를 사용하기 위해 적용했습니다.
+- `skeletonizer`: 사진을 아직 불러오기 전 화면 로딩 중이라는 UX를 제공하기 위해 사용했습니다.
+- `path_provider`: 북마크 기능을 위해 사용했습니다.
+- `path`: 북마크 기능을 위해 사용했습니다.
+- `get`: 컨트롤러 기능 및 상태관리 라이브러리를 위해 사용했습니다.
+- `permission_handler`: 저장소에 접근하기 위해 권한을 얻기 위해 사용했습니다.
+  
 ## 프로젝트 구조
 
 프로젝트는 MVC (Model-View-Controller) 패턴을 기반으로 구성되어 있습니다.
@@ -70,16 +68,6 @@
 - **이미지 사이즈:** 고정 가로, 가변적인 세로 크기
 - **북마크 상태 표시:** LocalDB에 저장된 북마크 여부에 따라 표시
 - **북마크 버튼:** 우측 상단에 북마크 버튼, 클릭 시 북마크 저장 또는 취소
-
-## Contributing
-
-프로젝트에 기여하려면 다음 단계를 따르세요:
-
-1. Fork the project
-2. Create a new branch (`git checkout -b feature/new-feature`)
-3. Make changes and commit (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/new-feature`)
-5. Create a new Pull Request
 
 ## License
 
