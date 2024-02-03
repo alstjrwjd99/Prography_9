@@ -87,4 +87,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Additional Information
 
-For more information, contact [Your Name](mailto:ms990926@gmail.com).
+For more information, contact mail to : ms990926@gmail.com.
